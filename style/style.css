@@ -1,0 +1,37 @@
+:root{
+  --sh: 0px 30px 25px 35px black;
+  --primary-color:rgb(50, 50, 120);
+  --secundary-color:rgb(4, 0, 26);
+  --three-colo:rgb(5, 0, 33);
+}
+
+
+#canvas {
+  box-shadow: var(--sh);
+  background-color: black;
+  border-radius: 15px;
+}
+
+h1{
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 234, 99);
+  box-shadow: 0px 0px 35px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 2, 0.3)0%,
+    var(--primary-color)10%,
+    var(--three-colo)50%,
+    var(--secundary-color)75%,
+    black 100% 
+  );
+}
